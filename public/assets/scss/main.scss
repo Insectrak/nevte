@@ -30,3 +30,14 @@
 @forward 'layout/blog';
 @forward 'layout/contact';
 @forward 'layout/footer';
+
+.mobile-menu{
+    /* Estilos para mostrar en móvil (pueden ser vacíos si el div debe ser visible por defecto) */
+  }
+  
+  /* Media query para dispositivos con un ancho mínimo de 769px (ejemplo de escritorio) */
+  @media (min-width: 769px) {
+    .mobile-menu{
+      display: none;
+    }
+  }
