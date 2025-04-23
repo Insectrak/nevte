@@ -49,7 +49,7 @@ const Menu = ({ header_style_2 }) => {
                 </div>
                 <div className="col-lg-3 col-md-4 col-5">
                   <div className="header__main_right d-flex justify-content-end align-items-center">
-                    <div className="tp-header-search-icons normal-search mr-80 p-relative ">
+                    {/*<div className="tp-header-search-icons normal-search mr-80 p-relative ">
                       <div
                         className={`search-btn-wrap ${
                           isToggleSearch ? "header_search-open" : ""
@@ -82,7 +82,7 @@ const Menu = ({ header_style_2 }) => {
                           </form>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div
                       className={`tp-bar-icon ${
                         header_style_2 ? "tp-bar-icon-dark" : ""

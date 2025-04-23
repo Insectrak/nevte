@@ -22,7 +22,7 @@ const ContactInfo = () => {
                     />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Address line</h3>
+                <h3 className="ct-info__box-title">Dirección</h3>
                 <p className="p-0">
                   Bowery St, New York, NY <br /> 10013,USA
                 </p>
@@ -45,7 +45,7 @@ const ContactInfo = () => {
                     <path d="M14 49H21V51H14V49Z" fill="currentColor" />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Phone Number</h3>
+                <h3 className="ct-info__box-title">Número de Télefono</h3>
                 <p className="p-0">
                   <a href="tel:+1255-568-6523">+1255 - 568 - 6523</a> <br />
                   <a href="tel:+1255-568-6523">+1255 - 568 - 6523</a>
@@ -68,7 +68,7 @@ const ContactInfo = () => {
                     />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Mail Adress</h3>
+                <h3 className="ct-info__box-title">Email</h3>
                 <p className="p-0">
                   <a href="mailto:email@example.com">email@example.com</a>{" "}
                   <br />
@@ -84,34 +84,34 @@ const ContactInfo = () => {
                   <input
                     type="text"
                     name="name"
-                    placeholder="Enter your name*"
+                    placeholder="Nombre*"
                     required
                   />
                   <input
                     type="email"
                     name="email"
-                    placeholder="Your email here"
+                    placeholder="Email*"
                     required
                   />
                   <input
                     type="text"
                     name="phone"
-                    placeholder="Enter your number*"
+                    placeholder="Num. Teléfono*"
                     required
                   />
                   <input
                     type="text"
                     name="subject"
-                    placeholder="Subject*"
+                    placeholder="Título*"
                     required
                   />
                   <textarea
                     name="message"
-                    placeholder="Enter your Massage*"
+                    placeholder="Mensaje*"
                   ></textarea>
                   <div className="text-center">
                     <button type="submit" className="tp-btn-border">
-                      Send Massage{" "}
+                      Enviar{" "}
                       <span>
                         <svg
                           width="22"

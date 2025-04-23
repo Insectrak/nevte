@@ -75,7 +75,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
           </div>
         </div>
 
-        <div className="tp-footer__widget pb-30 offcanvas-ct-info">
+        {/*<div className="tp-footer__widget pb-30 offcanvas-ct-info">
           <h3 className="tp-footer__widget-title">Quick Links</h3>
           <ul>
             <li>
@@ -94,7 +94,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
               <span> Friday - Wekend Day</span>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div
         onClick={() => setOffCanvas(false)}

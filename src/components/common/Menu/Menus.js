@@ -47,6 +47,9 @@ const Menus = () => {
           </li>
         </ul>
       </li> */}
+      <li>
+        <Link to="#caracteristicas">Características</Link>
+      </li>
       <li className="">
         <Link to="#lineas">Líneas</Link>
         {/*<ul className="submenu">

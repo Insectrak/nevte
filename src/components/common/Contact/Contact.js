@@ -28,21 +28,21 @@ const Contact = () => {
                   <input
                     type="text"
                     name="name"
-                    placeholder="Enter your name"
+                    placeholder="Nombre*"
                   />
                   <br />
                   <input
                     type="email"
                     name="email"
-                    placeholder="Enter your mail"
+                    placeholder="Email*"
                   />
                   <br />
                   <textarea
                     name="message"
-                    placeholder="Enter your mail"
+                    placeholder="Mensaje*"
                   ></textarea>
                   <button type="submit" className="tp-btn-border">
-                    Send Massage
+                    Enviar
                     <span>
                       <svg
                         width="22"

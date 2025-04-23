@@ -1,8 +1,7 @@
 const menu_data = [
   {
     id: 1,
-    hasDropdown: true,
-    title: 'Home',
+    title: 'Inicio',
     link: '/',
     submenus: [
       { title: 'Home Style 1', link: '/' },
@@ -12,14 +11,13 @@ const menu_data = [
   },
   {
     id: 2,
-    title: 'About',
-    link: '/about',
+    title: 'Nosotros',
+    link: '#nosotros',
   },
   {
     id: 3,
-    hasDropdown: true,
-    title: 'Pages',
-    link: '/about',
+    title: 'Características',
+    link: '#caracteristicas',
     submenus: [
       { title: 'Team', link: '/team' },
       { title: 'Team Details', link: '/team-details' },
@@ -32,9 +30,8 @@ const menu_data = [
   },
   {
     id: 4,
-    hasDropdown: true,
-    title: 'Portfolio',
-    link: '/portfolio',
+    title: 'Líneas',
+    link: '#lineas',
     submenus: [
       { title: 'Portfolio', link: '/portfolio' },
       { title: 'Portfolio Details', link: '/portfolio-details' },
@@ -42,9 +39,8 @@ const menu_data = [
   },
   {
     id: 5,
-    hasDropdown: true,
-    title: 'Blog',
-    link: '/blog',
+    title: 'Testimonios',
+    link: '#testimonios',
     submenus: [
       { title: 'Blog', link: '/blog' },
       { title: 'Blog Details', link: '/blog-details' },
