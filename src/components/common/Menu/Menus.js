@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Menus = () => {
   return (
     <ul>
-      <li className="has-dropdown">
+      <li className="">
         <Link to="/">Home</Link>
-        <ul className="submenu">
+       {/*} <ul className="submenu">
           <li>
             <Link to="/">Home Style 1</Link>
           </li>
@@ -16,10 +16,10 @@ const Menus = () => {
           <li>
             <Link to="/home-3">Home Style 3</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li>
-        <Link to="/about">About us</Link>
+        <Link to="/about">Nosotros</Link>
       </li>
       <li className="has-dropdown">
         <Link to="/team">Pages</Link>

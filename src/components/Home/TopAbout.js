@@ -12,31 +12,30 @@ const TopAbout = () => {
               <div className="tp-about-left pr-90">
                 <div className="tp-section-wrapper pt-5">
                   <span className="tp-section-subtitle">
-                    we increase your business
+                  REDEFINIENDO EL ESPACIO CON DISEÑO Y FUNCIONALIDAD
                   </span>
                   <h2 className="tp-section-title pt-25 mb-30">
-                    Don’t worry Your project in the right hands
+                  NUESTRA VISIÓN
                   </h2>
                   <p>
-                    Neque volutpat ac tincidunt vitae semper quis lectus nulla
-                    at. Nibh nisl id venenatis a condimentum. Libero justo
-                    laoreet sit amet. Nisl nisi scelerisque eu ultrices vitae.
-                    Dolor sit amet consectetur adipiscing elit pellentesque.
-                    Phasellus egestas tellus rutrum
+                  MI TINY ofrece arquitectura modular transportable de calidad premium, con diseños
+                  vanguardistas que fusionan estética y practicidad, adaptándose perfectamente a tus
+                  prioridades y estilo de vida.
+
                   </p>
-                  <p className="pt-10">
+                  {/*<p className="pt-10">
                     Sed ullamcorper morbi tincidunt ornare massa potenti nullam
                     ac tortor vitae purus. faucibus ornare suspendisse. Donec
                     enim diam vulputate ut pharetra sit amet aliquam id. Eu mi
                     bibendum neque egestas congue purus non enim praesent.
-                  </p>
+                  </p> */}
                 </div>
                 <div className="mt-45 mb-30">
-                  <Link to="/about">
+                  <Link to="/contact">
                     <div className="tp-theme-btn d-flex align-items-center">
                       <div className="tp-btn-inner">
-                        <p className="mb-0">Let’t Talk</p>
-                        <b>Get in Touch</b>
+                        <p className="mb-0">Hablemos</p>
+                        <b>Contáctanos</b>
                         <span className="d-inline-block">
                           <svg
                             width="46"
