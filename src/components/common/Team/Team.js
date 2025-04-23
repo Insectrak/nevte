@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import team_data from "../../../data/teamData.json";
+import caract_data from "../../../data/caractData.json";
+
 
 const Team = () => {
   return (
@@ -12,17 +13,17 @@ const Team = () => {
             <div className="col-12">
               <div className="tp-section-wrapper text-center">
                 <span className="tp-section-subtitle mb-30">
-                  we increase your business
+                  Mira que es lo que te espera
                 </span>
                 <h2 className="tp-section-title">
-                  All the people behind the <br /> latest project{" "}
+                DESCUBRE NUESTRAS LÍNEAS EXCLUSIVAS
                 </h2>
               </div>
             </div>
           </div>
           <div className="row">
-          {team_data.slice(0,4).map((team, i) => (
-              <div key={i} className="col-xl-3 col-md-6">
+          {caract_data.slice(0,4).map((team, i) => (
+              <div key={i} className="col-xl-4 col-md-6">
                 <div className="tp-team pb-30 pt-25">
                   <div className="tp-team__thumb">
                     <img src={team.img} alt="" />

@@ -5,7 +5,7 @@ const TopAbout = () => {
   return (
     <>
       {/* <!-- about area start --> */}
-      <div className="tp-about-area pt-140">
+      <div className="tp-about-area pt-140" id="nosotros">
         <div className="container">
           <div className="row justify-content-end">
             <div className="col-lg-6">
@@ -74,10 +74,10 @@ const TopAbout = () => {
                   <img src="assets/img/about/about.png" alt="" />
                 </div>
                 <div className="tp-about-info text-center grey-bg-4">
-                  <h3>24</h3>
+                  <h3>Años</h3>
                   <h4>
-                    Year of <br />
-                    Experience
+                    De experiencia<br />
+                    con inmobiliarias
                   </h4>
                 </div>
               </div>

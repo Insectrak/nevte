@@ -12,69 +12,54 @@ const Footer = () => {
               <div className="container">
                 <div className="tp-footer-border pt-60 pb-30">
                   <div className="row">
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget  pb-30">
                         <h3 className="tp-footer__widget-title">
-                          Our Location
+                          Dirección
                         </h3>
                         <ul>
                           <li>
-                            <a href="#">London</a>
-                          </li>
-                          <li>
-                            <a href="#">America</a>
-                          </li>
-                          <li>
-                            <a href="#">Constarica</a>
-                          </li>
-                          <li>
-                            <a href="#">Germany</a>
-                          </li>
-                          <li>
-                            <a href="#">India</a>
+                            <a href="#">Arequipa</a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget pb-30">
-                        <h3 className="tp-footer__widget-title">Our Service</h3>
+                        <h3 className="tp-footer__widget-title">Sobre Tiny</h3>
                         <ul>
                           <li>
-                            <a href="#">Tax strategy</a>
+                            <a href="#">Nosotros</a>
                           </li>
                           <li>
-                            <a href="#">Financial advices</a>
+                            <a href="#">Características</a>
                           </li>
                           <li>
-                            <a href="#">Insurance strategy</a>
+                            <a href="#">Líneas</a>
                           </li>
                           <li>
-                            <a href="#">Manage investment</a>
+                            <a href="#">Testimonios</a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 ">
+                    <div className="col-lg-4 col-md-6 ">
                       <div className="tp-footer__widget  pb-30">
-                        <h3 className="tp-footer__widget-title">Quick Links</h3>
+                        <h3 className="tp-footer__widget-title">Acceso Rápido</h3>
                         <ul>
                           <li>
-                            <a href="#">Our Team</a>
+                            <a href="#">Términos y condiciones</a>
                           </li>
                           <li>
-                            <a href="#">Faq</a>
+                            <a href="#">Política de privacidad</a>
                           </li>
                           <li>
-                            <a href="#">Portfolio</a>
-                          </li>
-                          <li>
-                            <a href="#">Service</a>
+                            <a href="#">Libro de Reclamaciones</a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    {/*<div className="col-lg-3 col-md-6">
                       <div className="tp-footer__widget  pb-30">
                         <h3 className="tp-footer__widget-title">Quick Links</h3>
                         <ul>
@@ -99,7 +84,7 @@ const Footer = () => {
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -115,7 +100,7 @@ const Footer = () => {
               <div className="col-md-8 col-12">
                 <div className="tp-copyrigh-text mb-30">
                   <span>
-                    © {new Date().getFullYear()} Arvilax - Business Consulting . All Rights Reserved.
+                    © {new Date().getFullYear()} My Tiny, todos los derechos reservados.
                   </span>
                 </div>
               </div>

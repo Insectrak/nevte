@@ -12,11 +12,10 @@ const TopCtaArea = () => {
               <div className="col-lg-9">
                 <div className="tp-section-wrapper">
                   <span className="tp-section-subtitle mb-25">
-                    Gain your business Success
+                    La mini casa al alcance de tus manos
                   </span>
                   <h2 className="tp-section-title">
-                    From strategy to delivery, we are here to make sure your
-                    business endeavor succeeds. Trust our experts.
+                  CARACTERÍSTICAS QUE NOS DISTINGUEN
                   </h2>
                 </div>
               </div>
@@ -24,8 +23,8 @@ const TopCtaArea = () => {
                 <Link to="/team">
                   <div className="tp-theme-btn d-flex align-items-center">
                     <div className="tp-btn-inner">
-                      <p className="mb-0">Our Team</p>
-                      <b>Meet our Team</b>
+                      <p className="mb-0">Descubrelas</p>
+                      <b>Aquí</b>
                       <span className="d-inline-block">
                         <svg
                           width="46"

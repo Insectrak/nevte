@@ -11,15 +11,18 @@ const LastedBlog = () => {
             <div className="col-12">
               <div className="tp-section-wrapper text-center">
                 <span className="tp-section-subtitle mb-30">
-                  Our Latest News & Blog
+                MI TINY - Espacios que se adaptan a tu vida, no al revés
                 </span>
                 <h2 className="tp-section-title mb-70">
-                  Stay updated with our <br /> latest posts
+                NUESTRO COMPROMISO
                 </h2>
+                <p>
+                Calidad sin concesiones en cada detalle, un diseño que inspira y eleva tu experiencia, una personalización única que refleja tu esencia y funcionalidad inteligente para una vida más simple.
+                  </p>
               </div>
             </div>
           </div>
-          <div className="row">
+          {/*<div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="tp-blog">
                 <div className="tp-blog__thumb">
@@ -176,7 +179,7 @@ const LastedBlog = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <!-- lasted blog end  --> */}

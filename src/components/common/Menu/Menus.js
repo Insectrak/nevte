@@ -5,7 +5,7 @@ const Menus = () => {
   return (
     <ul>
       <li className="">
-        <Link to="/">Home</Link>
+        <Link to="/">Inicio</Link>
        {/*} <ul className="submenu">
           <li>
             <Link to="/">Home Style 1</Link>
@@ -19,9 +19,9 @@ const Menus = () => {
         </ul> */}
       </li>
       <li>
-        <Link to="/about">Nosotros</Link>
+        <Link to="#nosotros">Nosotros</Link>
       </li>
-      <li className="has-dropdown">
+      {/*<li className="has-dropdown">
         <Link to="/team">Pages</Link>
         <ul className="submenu">
           <li>
@@ -46,28 +46,28 @@ const Menus = () => {
             <Link to="/faq">Faq</Link>
           </li>
         </ul>
-      </li>
-      <li className="has-dropdown">
-        <Link to="/portfolio">Portfolio</Link>
-        <ul className="submenu">
+      </li> */}
+      <li className="">
+        <Link to="#lineas">Líneas</Link>
+        {/*<ul className="submenu">
           <li>
             <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
             <Link to="/portfolio-details">Portfolio Details</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
-      <li className="has-dropdown">
-        <Link to="/blog">Blog</Link>
-        <ul className="submenu">
+      <li className="">
+        <Link to="#testimonios">Testimonios</Link>
+        {/*<ul className="submenu">
           <li>
             <Link to="/blog">blog</Link>
           </li>
           <li>
             <Link to="/blog-details">blog Details</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
     </ul>
   );

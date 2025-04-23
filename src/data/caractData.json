@@ -1,0 +1,116 @@
+[
+    {
+      "id": 1,
+      "img": "/assets/img/team/team-1.jpg",
+      "name": "LÍNEA MODULAR",
+      "title": "El espacio perfecto, a tu medida",
+      "social_links": [
+        {
+          "link": "http://facebook.com",
+          "target": "_blank",
+          "icon": "fab fa-facebook-f",
+          "name": "Facebook"
+        },
+        {
+          "link": "http://twitter.com",
+          "target": "_blank",
+          "icon": "fab fa-twitter",
+          "name": "Twitter"
+        },
+        {
+          "link": "https://www.instagram.com/",
+          "target": "_blank",
+          "icon": "fab fa-instagram",
+          "name": "Instagram"
+        },
+        {
+          "link": "https://www.youtube.com/",
+          "target": "_blank",
+          "icon": "fab fa-youtube",
+          "name": "Youtube"
+        },
+        {
+          "link": "https://www.linkedin.com/en/",
+          "target": "_blank",
+          "icon": "fab fa-linkedin",
+          "name": "Linkedin"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "assets/img/team/team-2.jpg",
+      "name": "LÍNEA TINY",
+      "title": "Libertad en su mínima expresión",
+      "social_links": [
+        {
+          "link": "http://facebook.com",
+          "target": "_blank",
+          "icon": "fab fa-facebook-f",
+          "name": "Facebook"
+        },
+        {
+          "link": "http://twitter.com",
+          "target": "_blank",
+          "icon": "fab fa-twitter",
+          "name": "Twitter"
+        },
+        {
+          "link": "https://www.instagram.com/",
+          "target": "_blank",
+          "icon": "fab fa-instagram",
+          "name": "Instagram"
+        },
+        {
+          "link": "https://www.youtube.com/",
+          "target": "_blank",
+          "icon": "fab fa-youtube",
+          "name": "Youtube"
+        },
+        {
+          "link": "https://www.linkedin.com/en/",
+          "target": "_blank",
+          "icon": "fab fa-linkedin",
+          "name": "Linkedin"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "assets/img/team/team-3.jpg",
+      "name": "LÍNEA COMERCIAL",
+      "title": "Tu negocio sin límites",
+      "social_links": [
+        {
+          "link": "http://facebook.com",
+          "target": "_blank",
+          "icon": "fab fa-facebook-f",
+          "name": "Facebook"
+        },
+        {
+          "link": "http://twitter.com",
+          "target": "_blank",
+          "icon": "fab fa-twitter",
+          "name": "Twitter"
+        },
+        {
+          "link": "https://www.instagram.com/",
+          "target": "_blank",
+          "icon": "fab fa-instagram",
+          "name": "Instagram"
+        },
+        {
+          "link": "https://www.youtube.com/",
+          "target": "_blank",
+          "icon": "fab fa-youtube",
+          "name": "Youtube"
+        },
+        {
+          "link": "https://www.linkedin.com/en/",
+          "target": "_blank",
+          "icon": "fab fa-linkedin",
+          "name": "Linkedin"
+        }
+      ]
+    }
+  ]

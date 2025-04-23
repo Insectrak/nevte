@@ -11,7 +11,7 @@ const TopFooter = () => {
               <div className="row align-items-center">
                 <div className="col-lg-5">
                   <h3 className="tp-footer__top-title">
-                    Have a project in mind? Let’s work together.
+                    Quieres saber más? Contáctanos para asesorarte.
                   </h3>
                 </div>
                 <div className="col-lg-7">

@@ -14,13 +14,13 @@ const TeamBanner = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="breadcrumb__content text-center p-relative z-index-1">
-                <h3 className="breadcrumb__title">Single Team</h3>
+                <h3 className="breadcrumb__title">CARACTERÍSTICAS</h3>
                 <div className="breadcrumb__list">
                   <span>
-                    <a href="#">Home</a>
+                    <a href="#">Inicio</a>
                   </span>
                   <span className="dvdr">:</span>
-                  <span>Single Team</span>
+                  <span>CARACTERÍSTICAS</span>
                 </div>
               </div>
             </div>

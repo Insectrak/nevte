@@ -2,7 +2,7 @@
     "testimonialData":[
         {
             "id": 1,
-            "title": "What our Client say",
+            "title": "Testimonios",
             "text1" : " Vulputate mi sit amet mauris commodo quis imperdiet.",
             "text2" : "Metus vulputate eu felis imperdiet proin nulla aliquet",
             "text3": "enim. Vulputate mi sit amet mauris",
@@ -13,7 +13,7 @@
         },
         {
             "id": 2,
-            "title": "What our Client say",
+            "title": "Testimonios",
             "text1" : " Vulputate mi sit amet mauris commodo quis imperdiet.",
             "text2" : "Metus vulputate eu felis imperdiet proin nulla aliquet",
             "text3": "enim. Vulputate mi sit amet mauris",
@@ -25,7 +25,7 @@
         },
         {
             "id": 3,
-            "title": "What our Client say",
+            "title": "Testimonios",
             "text1" : " Vulputate mi sit amet mauris commodo quis imperdiet.",
             "text2" : "Metus vulputate eu felis imperdiet proin nulla aliquet",
             "text3": "enim. Vulputate mi sit amet mauris",

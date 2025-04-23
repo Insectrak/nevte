@@ -2,8 +2,8 @@
     {
       "id": 1,
       "img": "/assets/img/team/team-1.jpg",
-      "name": "Cameron Williamson",
-      "title": "HR MANAGER",
+      "name": "Materiales premium",
+      "title": "Que garantizan durabilidad y calidad",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -40,8 +40,8 @@
     {
       "id": 2,
       "img": "assets/img/team/team-2.jpg",
-      "name": "Leslie Alexander",
-      "title": "CHIEF EXECUTIVE",
+      "name": "Diseño resistente",
+      "title": "Para cualquier entorno",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -78,8 +78,8 @@
     {
       "id": 3,
       "img": "assets/img/team/team-3.jpg",
-      "name": "Guy Hawkins",
-      "title": "HR SENIOR EXECUTIVE",
+      "name": "Personalización completa",
+      "title": "Según tus necesidades",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -116,8 +116,8 @@
     {
       "id": 4,
       "img": "assets/img/team/team-4.jpg",
-      "name": " Savannah Nguyen",
-      "title": "HR PROFESSIONAL",
+      "name": "Movilidad total",
+      "title": "Lleva tu espacio donde quieras",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -154,8 +154,8 @@
     {
       "id": 5,
       "img": "assets/img/team/team-5.jpg",
-      "name": " Savannah Nguyen",
-      "title": "HR PROFESSIONAL",
+      "name": "Estética vanguardista",
+      "title": "Que rompe esquemas",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -192,8 +192,8 @@
     {
       "id": 6,
       "img": "assets/img/team/team-6.jpg",
-      "name": " Savannah Nguyen",
-      "title": "HR PROFESSIONAL",
+      "name": "Soluciones prácticas",
+      "title": "Para el día a día",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -230,8 +230,8 @@
     {
       "id": 7,
       "img": "assets/img/team/team-7.jpg",
-      "name": " Savannah Nguyen",
-      "title": "HR PROFESSIONAL",
+      "name": "Inversión inteligente",
+      "title": "Con alto valor de reventa ",
       "social_links": [
         {
           "link": "http://facebook.com",
@@ -268,8 +268,8 @@
     {
       "id": 8,
       "img": "assets/img/team/team-8.jpg",
-      "name": " Savannah Nguyen",
-      "title": "HR PROFESSIONAL",
+      "name": "Construcción express",
+      "title": "Disfruta tu espacio en tiempo récord",
       "social_links": [
         {
           "link": "http://facebook.com",

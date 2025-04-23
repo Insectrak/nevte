@@ -12,8 +12,8 @@ const FullScreenBtn = () => {
               <Link to="/contact">
                 <div className="tp-theme-btn d-flex align-items-center white-bg">
                   <div className="tp-btn-inner">
-                    <p className="mb-0">Let’t Talk</p>
-                    <b>Get in Touch</b>
+                    <p className="mb-0">¿Dudas o preguntas?</p>
+                    <b>Contáctanos</b>
                     <span className="d-inline-block">
                       <svg
                         width="46"
