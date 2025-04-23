@@ -1,12 +1,22 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const TopCtaArea = () => {
+
+  const linkRef = useRef(null);
+      const location = useLocation();
+    
+      useEffect(() => {
+        if (location.hash === "#caracteristicas" && linkRef.current) {
+          linkRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, [location.hash, linkRef]);
+
   return (
     <>
       {/* <!-- cta area start --> */}
       <div className="tp-cta-area">
-        <div className="container">
+        <div className="container" id="caracteristicas" ref={linkRef}>
           <div className="tp-cta-wrapper pt-105 pb-120">
             <div className="row align-items-center justify-content-evenly">
               <div className="col-lg-9">

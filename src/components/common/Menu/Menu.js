@@ -84,7 +84,7 @@ const Menu = ({ header_style_2 }) => {
                       </div>
                     </div> */}
                     <div
-                      className={`tp-bar-icon ${
+                      className={`mobile-menu tp-bar-icon ${
                         header_style_2 ? "tp-bar-icon-dark" : ""
                       }`}
                     >

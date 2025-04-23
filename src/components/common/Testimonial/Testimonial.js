@@ -1,5 +1,5 @@
-import React from "react";
-import { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Slider from "react-slick";
 import testimonialData from "../../../data/TestimonialData.json";
 
@@ -22,11 +22,22 @@ const settings = {
 };
 
 const Testimonial = () => {
+
+  const linkRef = useRef(null);
+          const location = useLocation();
+        
+          useEffect(() => {
+            if (location.hash === "#testimonios" && linkRef.current) {
+              linkRef.current.scrollIntoView({ behavior: 'smooth' });
+            }
+          }, [location.hash, linkRef]);
+
+          
   const sliderRef = useRef(null);
   return (
     <>
       {/* <!-- testimonial slider start  --> */}
-      <div className="testimonial">
+      <div className="testimonial" id="testimonios" ref={linkRef}>
         <div className="tp-testimonial-area pt-120 pb-120">
           <div className="container">
             <div className="row">

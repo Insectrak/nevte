@@ -1,13 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import caract_data from "../../../data/caractData.json";
 
 
 const Team = () => {
+
+  const linkRef = useRef(null);
+        const location = useLocation();
+      
+        useEffect(() => {
+          if (location.hash === "#lineas" && linkRef.current) {
+            linkRef.current.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, [location.hash, linkRef]);
+
   return (
     <>
       {/* <!-- team area start  --> */}
-      <div className="tp-team-area pt-135 pb-110 grey-bg-4">
+      <div className="tp-team-area pt-135 pb-110 grey-bg-4" id="lineas" ref={linkRef}>
         <div className="container">
           <div className="row">
             <div className="col-12">

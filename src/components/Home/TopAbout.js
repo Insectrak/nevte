@@ -1,11 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const TopAbout = () => {
+  
+    const linkRef = useRef(null);
+    const location = useLocation();
+  
+    useEffect(() => {
+      if (location.hash === "#nosotros" && linkRef.current) {
+        linkRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, [location.hash, linkRef]);
+
   return (
     <>
       {/* <!-- about area start --> */}
-      <div className="tp-about-area pt-140" id="nosotros">
+      <div className="tp-about-area pt-140" id="nosotros" ref={linkRef}>
         <div className="container">
           <div className="row justify-content-end">
             <div className="col-lg-6">
